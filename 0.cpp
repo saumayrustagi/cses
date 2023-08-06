@@ -10,10 +10,7 @@ void solution()
 
 void solve(int n)
 {
-	do
-	{
-		solution();
-	} while (--n);
+	while (n--) solution();
 	return;
 }
 
